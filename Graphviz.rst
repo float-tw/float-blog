@@ -17,7 +17,7 @@ Graphviz_\ 是一套open source的圖形視覺化軟體，
 
 包含Linux, Solaris, Windows, Mac。
 
-如果是Linux的話也可以直接從套件庫安裝，以Ubuntu/Debin為例的話
+如果是Linux的話也可以直接從套件庫安裝，以Ubuntu/Debian為例的話
 
 ::
 
