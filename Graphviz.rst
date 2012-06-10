@@ -13,7 +13,7 @@ Graphviz_\ 是一套open source的圖形視覺化軟體，
 安裝
 ----
 
-從Graphviz_\ 官網的Download頁面就可以下載到各作業系統的版本，
+從\ Graphviz_\ 官網的Download頁面就可以下載到各作業系統的版本，
 
 包含Linux, Solaris, Windows, Mac。
 
@@ -28,7 +28,7 @@ Graphviz_\ 是一套open source的圖形視覺化軟體，
 
 Graphviz_\ 是是使用一種稱作dot語言的圖形描述語言來描述圖形，
 
-而在Graphviz_\ 中又分為無向圖和有向圖，底下各舉一個範例。
+而在\ Graphviz_\ 中又分為無向圖和有向圖，底下各舉一個範例。
 
 - 無向圖
 
