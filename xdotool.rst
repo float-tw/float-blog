@@ -121,7 +121,7 @@ ubuntu/debian
 其他
 ----
 
-有一個xdotoolgui的東西，似乎是可以直接用來編輯xdotool的命令，
+有一xdotoolgui的東西，似乎是可以直接用來編輯xdotool的命令，
 
 不過我的需求沒有很複雜，而也他也不再套件庫中，所以我就沒有深入研究。
 
