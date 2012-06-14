@@ -12,7 +12,7 @@ xdotool
 簡介
 ----
 
-套件說明：\ ``simulate X11 keyboard/mouse input``
+套件說明：simulate X11 keyboard/mouse input
 
 也就是在X Windows下模擬鍵盤和滑鼠的輸入
 
