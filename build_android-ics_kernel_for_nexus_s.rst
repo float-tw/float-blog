@@ -70,7 +70,9 @@ make 加上 -j 加速一下編譯，
 
 至於解開 boot.img 更換 zImage 在重新打包的步驟可以在參考資料的後兩篇找到。
 
-燒錄所需要的 adb, fastboot 可以下載 android sdk
+燒錄所需要的 adb, fastboot 可以下載 `android sdk`_
+
+.. _android sdk: http://developer.android.com/sdk/index.html
 
 參考資料
 --------
