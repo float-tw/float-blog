@@ -174,3 +174,7 @@ https://developer.mozilla.org/en/Mozilla/Boot_to_Gecko/Building_and_installing_B
 自己編譯 Boot2Gecko 快速上手
 
 http://littleqnote.blogspot.tw/2012/05/boot2gecko.html
+
+謀智台客
+
+http://tech.mozilla.com.tw/posts/127/b2g-on-emulator-2
