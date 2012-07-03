@@ -79,7 +79,36 @@ DEBUG=1 可加可不加，主要就是影響一些 debug 訊息
 
 完成 B2G 和 gaia 的編譯以後就可以執行了！
 
-移動到 B2G 的執行檔位置，他會在所設定的 ``MOZ_OBJDIR`` 底下的 ``dist/bin/`` 內
+不過在執行前先設定一下 ``/etc/hosts`` 在裡面加上
+
+::
+
+   127.0.0.1     gaiamobile.org 
+   127.0.0.1     homescreen.gaiamobile.org
+   127.0.0.1     dialer.gaiamobile.org 
+   127.0.0.1     sms.gaiamobile.org 
+   127.0.0.1     browser.gaiamobile.org 
+   127.0.0.1     maps.gaiamobile.org 
+   127.0.0.1     camera.gaiamobile.org
+   127.0.0.1     gallery.gaiamobile.org
+   127.0.0.1     video.gaiamobile.org 
+   127.0.0.1     market.gaiamobile.org
+   127.0.0.1     music.gaiamobile.org 
+   127.0.0.1     settings.gaiamobile.org
+   127.0.0.1     clock.gaiamobile.org
+   127.0.0.1     crystalskull.gaiamobile.org
+   127.0.0.1     penguinpop.gaiamobile.org
+   127.0.0.1     towerjelly.gaiamobile.org
+   127.0.0.1     wikipedia.gaiamobile.org
+   127.0.0.1     cnn.gaiamobile.org 
+   127.0.0.1     bbc.gaiamobile.org 
+   127.0.0.1     nytimes.gaiamobile.org 
+   127.0.0.1     calculator.gaiamobile.org
+   127.0.0.1     system.gaiamobile.org
+
+後面的 gaiamobile.org 則依前面設定的 ``GAIA_DOMAIN`` 而定
+
+之後移動到 B2G 的執行檔位置，他會在所設定的 ``MOZ_OBJDIR`` 底下的 ``dist/bin/`` 內
 
 ::
 
