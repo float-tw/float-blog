@@ -1,1 +1,2 @@
 - ccache
+- mount /tmp to ram
