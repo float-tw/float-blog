@@ -182,3 +182,7 @@ https://developer.mozilla.org/En/Simple_Firefox_build
 using gaia in firefox
 
 https://developer.mozilla.org/en/Mozilla/Boot_to_Gecko/Using_Gaia_in_Firefox
+
+Setup Gaia on Mac With Firefox Nightly Build
+
+http://alivedise.github.com/blog/2012/05/05/gaia/
