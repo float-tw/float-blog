@@ -36,13 +36,24 @@ B2G 的部份我們需要先建立一個設定檔 ``.mozconfig``
 
 ::
 
-    待補
+    mk_add_options MOZ_MAKE_FLAGS="-j6"
+    mk_add_options MOZ_OBJDIR=../build
+
+    ac_add_options --enable-application=b2g
+    ac_add_options --enable-debug
+    ac_add_options --enable-profiling
+    ac_add_options --with-ccache=/usr/bin/ccache
+
 
 ``MOZ_OBJDIR`` 的部份是設定編譯後檔案存放的位置，不指定的話會放在 mozilla-central 下的 obj-xxxxx
 
 ``MOZ_MAKE_FLAGS`` 設定編譯的參數， -j 接的數字是同時執行的 jobs 數量，適當調整可以加快編譯的速度
 
 ``--enable-application=b2g`` 這邊設定所要編譯的程式（ mozilla-central 包含了 Firefox, Thunderbird, B2G 等）
+
+``--with-ccache=/usr/bin/ccache`` 是使用 ccahe 來加快編譯，詳細內容可以參考 這篇_
+
+.. _這篇: https://developer.mozilla.org/en/ccache
 
 寫完設定檔後就可以開始編譯了，Makefile 是 ``client.mk``
 
