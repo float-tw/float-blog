@@ -139,6 +139,23 @@ DEBUG=1 可加可不加，主要就是影響一些 debug 訊息
 
 .. image:: https://github.com/a13524000/float-blog/raw/master/img/b2g_desktop_screenshot.jpeg
 
+``-profile`` 的部份我的了解是他會利用後面的 profile 在本機上執行 service，
+
+所以在 netstat 可以看到幾個由 b2g listen 的 port
+
+::
+
+    Active Internet connections (only servers)
+    Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name
+    tcp        0      0 127.0.0.1:2828          0.0.0.0:*               LISTEN      13371/b2g       
+    tcp        0      0 127.0.0.1:5037          0.0.0.0:*               LISTEN      4702/adb        
+    tcp        0      0 0.0.0.0:8080            0.0.0.0:*               LISTEN      13371/b2g       
+    tcp        0      0 127.0.0.1:4242          0.0.0.0:*               LISTEN      13371/b2g 
+
+這時除了在 b2g 本身的界面運行外，也可以試著用其他瀏覽器去連看看，
+
+網址會是 appname.gaiamobile.org:8080 不過基本上要用 Firefox 15 以上才會有比較正常的效果。
+
 如果想要自己丟一個 app 進去試試看的話，現在的 gaia/apps 底下有一個 template 的資料夾，
 
 就是一個空的 app 可以參考他，以及其他其他底下的 app 來寫 ``manifest.webapp`` 這個檔案，
@@ -147,9 +164,21 @@ app 部份就主要是 HTML 和 javascript ，寫好後放在 gaia/apps 底下�
 
 至於 app 的詳細寫法因為不是本篇重點便不詳述。
 
+在參考資料的 gaia hacking 中也有其他多種除了在手機上執行 b2g 以外的方式，
+
+另外如果執行上碰到什麼問題可能是我寫錯的地方也請留言指教，謝謝。
+
 參考資料
 --------
 
 gaia hacking
 
 https://wiki.mozilla.org/Gaia/Hacking
+
+build firefox
+
+https://developer.mozilla.org/En/Simple_Firefox_build
+
+using gaia in firefox
+
+https://developer.mozilla.org/en/Mozilla/Boot_to_Gecko/Using_Gaia_in_Firefox
