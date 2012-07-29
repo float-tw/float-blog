@@ -16,17 +16,17 @@ domain name
 所以就依照blogger的說明中去設定，他的說明大概長這樣
 
 .. image:: https://github.com/a13524000/float-blog/raw/master/img/google-dns-set-exp.jpeg
-	:width: 600
+    :width: 600
 
 畫紅線的部份寫了 **看到名稱時，只需要輸入『www』** 所以我就很天真的這樣設定
 
 .. image:: https://github.com/a13524000/float-blog/raw/master/img/dns-set.jpeg
-	:width: 600
+    :width: 600
 
 blogger這邊是這樣
 
 .. image:: https://github.com/a13524000/float-blog/raw/master/img/blogger-set.jpeg
-	:width: 600
+    :width: 600
 
 然後在設定DNS的時候網頁有提到可能24-48小時才會生效，所以我就開始癡癡的等
 
