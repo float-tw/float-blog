@@ -24,4 +24,4 @@ Fn + F3 設定程關閉螢幕，只是在 Ubuntu 下他就只能跳出電源統�
     sudo vbetool dpms on
     sudo vbetool dpms off
 
-這個需要權限而且不會自動喚醒，不過還是題一下。
+這個需要權限而且不會自動喚醒，不過還是提一下。
