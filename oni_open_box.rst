@@ -1,4 +1,4 @@
-[開箱] KBTalKing oni
+[開箱] KBtalKing oni
 ====================
 
 雖然是開箱文，可是不知道要寫什麼....
@@ -12,7 +12,7 @@
 .. image:: https://github.com/a13524000/float-blog/raw/master/img/oni/IMG_20121016_172322.jpg
     :width: 600
 
-背面 KBTalKing
+背面 KBtalKing
 
 .. image:: https://github.com/a13524000/float-blog/raw/master/img/oni/IMG_20121016_172351.jpg
     :width: 600
