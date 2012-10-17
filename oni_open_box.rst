@@ -40,7 +40,7 @@
 
 側面
 
-.. image:: https://github.com/a13524000/float-blog/raw/master/img/oni/IMG_20121016_230241.jpg
+.. image:: https://github.com/a13524000/float-blog/raw/master/img/oni/IMG_20121016_190659.jpg
     :width: 600
 
 enter 特寫
@@ -79,14 +79,14 @@ Caps Lock 燈號，白燈，不過鍵帽沒有開孔，所以燈是從旁邊透�
 
 和 Ducky 9000 合照
 
-.. image:: https://github.com/a13524000/float-blog/raw/master/img/oni/IMG_20121016_190659.jpg
+.. image:: https://github.com/a13524000/float-blog/raw/master/img/oni/IMG_20121016_230236.jpg
     :width: 600
 
-.. image:: https://github.com/a13524000/float-blog/raw/master/img/oni/IMG_20121016_230236.jpg
+.. image:: https://github.com/a13524000/float-blog/raw/master/img/oni/IMG_20121016_230241.jpg
     :width: 600
 
 這隻是茶軸，跟合照的 Ducky 9000 一樣，不過打起來的感覺比較紮實一點，
 
 不知道是 PBT 鍵帽、是新的還是什麼其他原因，現在覺得 Ducky 比較輕快一點，
 
-灰色的鍵帽看起來蠻漂亮的，不過技術不好拍不太出來Orz
+灰色的鍵帽看起來蠻漂亮的，不過技術不好拍不太出來Orz。
