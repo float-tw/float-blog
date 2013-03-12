@@ -137,7 +137,7 @@ DEBUG=1 可加可不加，主要就是影響一些 debug 訊息
 
 如果沒有意外的話就會看到 B2G 的 screen lock 了
 
-.. image:: https://github.com/a13524000/float-blog/raw/master/img/b2g_desktop_screenshot.jpeg
+.. image:: https://github.com/float-tw/float-blog/raw/master/img/b2g_desktop_screenshot.jpeg
 
 ``-profile`` 的部份我的了解是他會利用後面的 profile 在本機上執行 service，
 

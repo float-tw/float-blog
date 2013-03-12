@@ -7,8 +7,8 @@ tig 是把 git 倒過來寫，
 
 簡單明瞭， h 可以顯示一些說明
 
-.. image:: https://github.com/a13524000/float-blog/raw/master/img/tig_1.jpeg
+.. image:: https://github.com/float-tw/float-blog/raw/master/img/tig_1.jpeg
     :width: 600
 
-.. image:: https://github.com/a13524000/float-blog/raw/master/img/tig_2.jpeg
+.. image:: https://github.com/float-tw/float-blog/raw/master/img/tig_2.jpeg
     :width: 600

@@ -20,9 +20,9 @@ github push 時仍然需要帳號密碼
     [remote "origin"]
     fetch = +refs/heads/*:refs/remotes/origin/*
     # ssh
-    url = git@github.com:a13524000/float-blog
+    url = git@github.com:float-tw/float-blog
     # https
-    url = https://github.com/a13524000/float-blog.git
+    url = https://github.com/float-tw/float-blog.git
 
 將 url 的部份由 https 改為 ssh 就可以了，而 url 寫法可以在 github 的 repo 頁面找到。
 

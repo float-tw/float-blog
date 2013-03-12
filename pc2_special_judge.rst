@@ -11,7 +11,7 @@
 
 那 special judge 的話就選用 External Validator
 
-.. image:: https://github.com/a13524000/float-blog/raw/master/img/pc2_validator_setting.jpeg
+.. image:: https://github.com/float-tw/float-blog/raw/master/img/pc2_validator_setting.jpeg
 
 然後按 Validator Prog... 後面選擇 judge 的程式，可以是現成的某個程式 (diff...)
 

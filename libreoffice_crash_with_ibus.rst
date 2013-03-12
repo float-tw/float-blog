@@ -7,7 +7,7 @@ LibreOffice 打字時崩潰
 
 第一個想到的作法就是去改 ibus 的緩衝區設定，
 
-.. image:: https://github.com/a13524000/float-blog/raw/master/img/ibus_setting.jpeg
+.. image:: https://github.com/float-tw/float-blog/raw/master/img/ibus_setting.jpeg
 
 不過從這邊修改不知道什麼原因常常會自己又變回 4 或 8 之類得很小的數值，
 
@@ -15,7 +15,7 @@ LibreOffice 打字時崩潰
 
 在這個項目下 desktop -> ibus -> engine -> Chewing -> maxChiSymbolLen
 
-.. image:: https://github.com/a13524000/float-blog/raw/master/img/gconf_chewing_setting.jpeg
+.. image:: https://github.com/float-tw/float-blog/raw/master/img/gconf_chewing_setting.jpeg
 
 只是這種設定只是治標不治本，當打超出設定的緩衝區時還是會崩潰 Orz
 

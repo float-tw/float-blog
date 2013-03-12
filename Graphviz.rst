@@ -41,7 +41,7 @@ Graphviz_\ 是是使用一種稱作dot語言的圖形描述語言來描述圖形
 
 上面的code可以畫出下面這張圖
 
-.. image:: https://github.com/a13524000/float-blog/raw/master/img/undirected_graph.jpg
+.. image:: https://github.com/float-tw/float-blog/raw/master/img/undirected_graph.jpg
 
 - 有向圖
 
@@ -54,7 +54,7 @@ Graphviz_\ 是是使用一種稱作dot語言的圖形描述語言來描述圖形
 
 這段則可以畫出下面這張
 
-.. image:: https://github.com/a13524000/float-blog/raw/master/img/directed_graph.jpg
+.. image:: https://github.com/float-tw/float-blog/raw/master/img/directed_graph.jpg
 
 有向圖和無向圖的差異主要有兩個地方，第一個是宣告圖形的關鍵字，
 
@@ -98,7 +98,7 @@ or
 		a -> c;
 	}
 
-.. image:: https://github.com/a13524000/float-blog/raw/master/img/graphviz_ex1.jpg
+.. image:: https://github.com/float-tw/float-blog/raw/master/img/graphviz_ex1.jpg
 
 如果希望a和b可以擺在相同高度，那可以這樣修改
 
@@ -111,7 +111,7 @@ or
 		{rank=same; a; b;}
 	}
 
-.. image:: https://github.com/a13524000/float-blog/raw/master/img/graphviz_ex2.jpg
+.. image:: https://github.com/float-tw/float-blog/raw/master/img/graphviz_ex2.jpg
 
 另外，node和arrow等等的形狀、顏色都是可以修改的在\ document_\ 裡面可以找到很多範例
 
@@ -129,7 +129,7 @@ or
 		node1-> node2[arrowhead=vee]; 
 	}
 
-.. image:: https://github.com/a13524000/float-blog/raw/master/img/graphviz_ex3.jpg
+.. image:: https://github.com/float-tw/float-blog/raw/master/img/graphviz_ex3.jpg
 
 
 .. _document: http://www.graphviz.org/Documentation.php
