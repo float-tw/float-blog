@@ -23,3 +23,19 @@
     pprint(sol)                               
     # OUT: {x: 50, y: 30, z: 20}
 
+使用 evalf 將分數轉為小數輸出
+
+ex.
+
+4x\ :sup:`2` + 5x - 6 = 0
+
+::
+
+    from sympy import *
+    x = Symbol('x')
+    f = 4*x**2 + 5*x -6
+    sol = solve(f, x)
+    pprint(sol)
+    # OUT: [-2, 3/4]
+    print sol[1].evalf()
+    # OUT: 0.750000000000000
