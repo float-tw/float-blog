@@ -40,7 +40,7 @@ git 官網提供的也是 https 的，自己把他改成 http
     $ make configure
     $ ./configure
     $ make all doc
-    # make inatll install-doc install-html
+    # make install install-doc install-html
 
 這邊我遇到的問題是，如果照著 INSTALL 裡的 ``$ ./configure --prefix=/usr``
 
